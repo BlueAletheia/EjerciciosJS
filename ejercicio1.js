@@ -11,4 +11,4 @@ const arrNames = [
   });
   
   console.log(name);
-  
+ 
