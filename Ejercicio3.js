@@ -7,7 +7,7 @@ const arrCities = [
     { city: "Jaén", country: "Spain", capital: false }
   ];
   
-  let capitales = arrCities.filter((city) => city.capital !== false);
-  let cities = capitales.map((city) => console.log(city.city, "is the capital of", city.country));
+  let capitales = arrCities.filter((city) =>  !city.capital && city.country === "Spain");
+  let cities = capitales.map((city) => console.log(city.city, "is not the capital of", city.country));
   
  
